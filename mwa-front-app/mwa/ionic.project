@@ -1,0 +1,12 @@
+{
+  "name": "mwa",
+  "app_id": "5921fb39",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

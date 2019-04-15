@@ -1,0 +1,17 @@
+<br>
+<p class="text-center">
+    <img  alt="product.title" ng-src="{{ product.image }}"/>
+</p>
+
+<h3 class="text-center">{{ product.title }}</h3>
+<p class="text-center">
+    {{ product.description }}
+</p>
+
+<h2 class="text-center">{{ product.price | currency: 'R$' }}</h2>
+
+<p class="text-center">
+    <button class="button button-positive icon-left ion-bag" ng-click="addToCart()">
+        COMPRAR
+    </button>
+</p>
